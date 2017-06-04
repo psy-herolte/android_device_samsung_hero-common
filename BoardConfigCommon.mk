@@ -33,6 +33,10 @@ TARGET_AUDIOHAL_VARIANT := samsung
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
+# Kernel
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-uber/bin/arm-eabi-
+
 # CPUsets
 ENABLE_CPUSETS := true
 
