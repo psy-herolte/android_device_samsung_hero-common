@@ -86,7 +86,8 @@ PRODUCT_PACKAGES += \
 	libsamsung_symbols \
 	SamsungServiceMode \
 	Torch \
-	snap
+	snap \
+	HeroDoze
 
 ###########################################################
 ### DTB TOOL
