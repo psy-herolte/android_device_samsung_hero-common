@@ -19,6 +19,8 @@ LOCAL_PATH := device/samsung/hero-common
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5
