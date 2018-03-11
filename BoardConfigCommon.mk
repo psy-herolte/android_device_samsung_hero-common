@@ -36,12 +36,8 @@ TARGET_AUDIOHAL_VARIANT := samsung
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
-# Kernel
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-uber/bin/arm-eabi-
-
 # CPUsets
-ENABLE_CPUSETS := true
+#ENABLE_CPUSETS := true
 
 # Use SDFat foe exfat driver
 TARGET_EXFAT_DRIVER := sdfat
@@ -50,7 +46,6 @@ TARGET_EXFAT_DRIVER := sdfat
 EXTENDED_FONT_FOOTPRINT := true
 
 # Image
-BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
