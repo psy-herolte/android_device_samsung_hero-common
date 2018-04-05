@@ -24,7 +24,7 @@ BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5
-TARGET_SLSI_VARIANT := cm
+TARGET_SLSI_VARIANT := bsp
 TARGET_SOC := exynos8890
 TARGET_BOOTLOADER_BOARD_NAME := universal8890
 TARGET_NO_BOOTLOADER := true
