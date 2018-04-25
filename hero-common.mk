@@ -77,7 +77,8 @@ PRODUCT_PACKAGES += \
 	RootPA \
 	HeroDoze \
 	android.hidl.base@1.0 \
-	android.hidl.manager@1.0
+	android.hidl.manager@1.0 \
+	libinit_sec 
 
 # Filesystem tools for resizing system partition filesystem
 PRODUCT_PACKAGES += \
