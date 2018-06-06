@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
 	libsamsung_symbols \
 	SamsungServiceMode \
 	Torch \
-	RootPA \
 	HeroDoze \
 	android.hidl.base@1.0 \
 	android.hidl.manager@1.0 \
@@ -102,6 +101,10 @@ PRODUCT_PACKAGES += \
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+# call Samsung S.LSI board support package
+$(call inherit-product, hardware/samsung_slsi/exynos5/exynos5.mk)
+$(call inherit-product, hardware/samsung_slsi/exynos8890/exynos8890.mk)
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor.mk)
-$(call inherit-product, vendor/seal/seal/seal-common-vendor.mk)
+$(call inherit-product, vendor/samsung/sensors/hero-common-vendor.mk)
