@@ -93,6 +93,32 @@
     </hal>
 
     <!--
+        LiveDisplay
+      -->
+    <hal format="hidl">
+        <name>vendor.lineage.livedisplay</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IColor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!--
+        Location
+      -->
+    <hal format="hidl">
+        <name>android.hardware.gnss</name>
+        <transport arch="32+64">passthrough</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGnss</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!--
         Vibrator
       -->
     <hal format="hidl">
@@ -105,5 +131,20 @@
             <instance>default</instance>
         </interface>
     </hal>
+
+    <!--
+        USB
+      -->
+    <hal format="hidl">
+        <name>android.hardware.usb</name>
+        <transport>hwbinder</transport>
+        <impl level="generic"></impl>
+        <version>1.0</version>
+        <interface>
+            <name>IUsb</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
 
 </manifest>
