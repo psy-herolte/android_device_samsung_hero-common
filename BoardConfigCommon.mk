@@ -19,6 +19,8 @@ LOCAL_PATH := device/samsung/hero-common
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5
@@ -35,7 +37,6 @@ TARGET_AUDIOHAL_VARIANT := samsung
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
-# Use SDFat for exfat driver
 TARGET_EXFAT_DRIVER := sdfat
 
 # Fonts
