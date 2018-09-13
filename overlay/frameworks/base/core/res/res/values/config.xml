@@ -120,8 +120,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+         config to 7. >
+    <integer name="config_deviceHardwareWakeKeys">65</integer-->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -294,8 +294,8 @@
          LIGHTS_BATTERY_LED = 64
 
          For example, a device with notification and battery lights that supports
-         pulsating and RGB control would set this config to 75. -->
-    <integer name="config_deviceLightCapabilities">75</integer>
+         pulsating and RGB control would set this config to 75. >
+    <integer name="config_deviceLightCapabilities">75</integer-->
 
     <!-- proximity -->
     <!-- Default value for proximity check on screen wake
