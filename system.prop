@@ -7,7 +7,7 @@ ro.boot.bootdevice=155a0000.ufs
 # Set build type
 ro.build.type=user
 ro.build.tags=release-keys
-ro.build.flavor=validus_herolte-user
+ro.build.flavor=gzosp_herolte-user
 
 # herolte Hardware Info
 ro.device.chipset=Samsung Exynos 8 Octa 8890
