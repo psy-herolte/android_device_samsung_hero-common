@@ -43,11 +43,7 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_EXFAT_DRIVER := sdfat
 
 # Security
-<<<<<<< HEAD
-VENDOR_SECURITY_PATCH := 2018-10-01
-=======
 VENDOR_SECURITY_PATCH := 2018-12-01
->>>>>>> 787ed44... Dec. 2018. Security update
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
